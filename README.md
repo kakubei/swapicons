@@ -7,7 +7,7 @@ Add this script to any game object with a SpriteRenderer attached.
 - game object must have a `SpriteRenderer`
 - must have a collider2D with `Is trigger` turned on
 - script will expose an `Alt Icon` property where you need to drag a sprite to it in the editor
-- your player character needs to have the "Player" `tag` attached to it (line 46 in the script relies on this)
+- your player character needs to have the "Player" `tag` attached to it (line 44 in the script relies on this)
 
 ### Notes
 This was created for 2D objects but can be easily adapted to 3D by simply replacing all `2D` occurrences with `3D` :)
