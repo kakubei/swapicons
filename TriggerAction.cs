@@ -15,9 +15,7 @@ public class TriggerAction : MonoBehaviour {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         originalIcon = _spriteRenderer.sprite;
     }
-    
-    // TODO: Maybe a standalone helper method where we pass it the renderer and the icons?
-    // that way we can use it anywhere we need this effect
+
     IEnumerator SwapIcons(Sprite newIcon) {
         float duration = 0.2f;
         Color c = _spriteRenderer.material.color;
