@@ -1,4 +1,4 @@
-# swapicons
+# swapicons Unity
 C# Unity script to fade out a sprite, swap it with another and fade in
 
 Add this script to any game object with a SpriteRenderer attached whose icon you want to swap based on a Trigger.
